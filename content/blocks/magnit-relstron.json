@@ -1,0 +1,55 @@
+{
+"type": "ItemTurret",
+"name": "Электромагнитный рельстрон",
+"description": "Два мощных электромагнита запускают снаряд по рельсам, за счёт чего он развивает невероятную скорость и урон",
+"targetAir": false,
+"targetGround": true,
+"health": 980,
+"size": 2,
+"inaccuracy": 0,
+"reload": 170,
+"shots": 1,
+"range": 300,
+"burstSpacing": 5,
+"ammo": {
+"titanium": {
+"speed": 50,
+"damage": 85,
+"bulletWidth": 8,
+"bulletHeight": 20,
+"shootEffect": "shootSmallFlame",
+"smokeEffect": "plasticExplosionFlak",
+"ammoMultiplier": 2
+		"fragBullets": 40,
+        "fragBullet": {
+             "type": "BasicBulletType"
+            "damage": 20,
+            "lifetime": 10, 
+            "speed": 3,
+            "bulletWidth": 3,
+            "bulletHeight": 4,
+        }
+},
+    "thorium": {
+        "speed": 50
+        "damage": 90,
+"bulletWidth": 8,
+"bulletHeight": 20,
+"shootEffect": "shootSmallFlame",
+"smokeEffect": "plasticExplosionFlak",
+"ammoMultiplier": 2
+		"splashDamageRadius": 50,
+		"splashDamage": 40,
+    }
+},
+"requirements": [
+{ "item": "titanium", "amount": 30},
+{ "item": "graphite", "amount": 50},
+{ "item": "star-steel", "amount": 20},
+{ "item": "plastanium", "amount": 30},
+{ "item": "magnit", "amount": 25}
+],
+"category": "turret",
+"shootSound": "bamg"
+	"research": "cyclone"
+}

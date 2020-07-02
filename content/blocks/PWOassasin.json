@@ -1,0 +1,68 @@
+{
+"type": "ItemTurret",
+"name": "ПВО снайпер",
+"description": "Мощная электромагнитная винтовка, предназначеная для уничтожения крупных кораблей на большой дистанции.",
+"targetAir": true,
+"targetGround": false,
+"health": 3500,
+"size": 4,
+"inaccuracy": 0,
+"reload": 79,
+"shots": 1,
+"range": 500,
+"ammo": {
+    "scrap": {
+        "speed": 30,
+        "damage": 55,
+        "bulletWidth": 9,
+        "bulletHeight": 20,
+"shootEffect": "shootSmallFlame",
+"smokeEffect": "plasticExplosionFlak",
+        "ammoMultiplier": 2
+		"fragBullets": 6
+		"fragBullet": {
+		    "type": "LiquidBulletType"
+		    "liquid": "slag"
+		    "lifetime": 4
+		    "speed": 6
+		    "bulletWidth": 5,
+            "bulletHeight": 5,
+            "damage": 4
+            "despawnEffect": "none"
+		}
+},
+    "thorium": {
+        "speed": 30,
+        "damage": 60,
+        "bulletWidth": 9,
+        "bulletHeight": 20,
+"shootEffect": "shootSmallFlame",
+"smokeEffect": "plasticExplosionFlak",
+        "ammoMultiplier": 2
+        "reloadMultiplier": 0.8
+        "splashDamageRadius": 5,
+		"splashDamage": 10,
+    }
+    "silicon": {
+        "speed": 30,
+        "damage": 58,
+        "ammoMultiplier": 2,
+        "reloadMultiplier": 1.5
+        "bulletWidth": 9,
+        "bulletHeight": 20,
+"shootEffect": "shootSmallFlame",
+"smokeEffect": "plasticExplosionFlak",
+        "homingPower": 1,
+        "homingRange": 30,
+    }
+},
+"requirements": [
+{ "item": "thorium", "amount": 320},
+{ "item": "graphite", "amount": 100},
+{ "item": "plastanium", "amount": 120},
+{ "item": "magnit", "amount": 40}
+],
+"category": "turret",
+"shootSound": "bamg"
+	"research": "megaturret"
+}

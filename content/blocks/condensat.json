@@ -1,0 +1,19 @@
+{
+	 "type": "SolidPump", 
+	"name": "Имперский конденсатор",
+   "description": "Если требуется вода в местах её отсутствия можешь конденсировать её из воздуха"
+	"result": "water",
+    "pumpAmount": 0.1,
+    "size": 2,
+    "hasPower": false,
+    "liquidCapacity": 200,
+    "rotateSpeed": 2.0,
+     "requirements": [
+  { "item": "star-steel", "amount": 25 },
+  { "item": "titanium", "amount": 5 },
+  { "item": "silicon", "amount": 20 },
+  { "item": "metaglass", "amount": 27 },
+ ],
+ "category": "production",
+ "research": "water-extractor"
+}

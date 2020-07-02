@@ -1,0 +1,7 @@
+{
+	"name": "Песчаный лёд",
+	"type": "Floor",
+	"itemDrop": "sand"
+	"variants": 3
+	"attribute": { "array": [0.1, 0.1, 50, 20]}
+}

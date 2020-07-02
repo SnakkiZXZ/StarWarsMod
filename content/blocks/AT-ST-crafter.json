@@ -1,0 +1,26 @@
+{
+	"name": "Сборочный цех AT-ST",
+	"description": "Производит лёгкие шагоходы типа: AT-ST.",
+	"type": "UnitFactory",
+	"unitType": "AT-ST",
+	"size": 2,
+	"maxSpawn": 3,
+	"produceTime": 700,
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "brona", "amount": 30 },
+{ "item": "silicon", "amount": 15 },
+			]
+		},
+	},
+	"category": "units",
+	"requirements": [
+		{ "item": "brona", "amount": 45 },
+		{ "item": "copper", "amount": 20 },
+		{ "item": "silicon", "amount": 35 },
+		{ "item": "titanium", "amount": 40 },
+] 
+	"research": "command-center"
+}

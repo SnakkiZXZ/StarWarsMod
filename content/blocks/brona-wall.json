@@ -1,0 +1,12 @@
+{
+	"name": "стена из бронесплава",
+	"description": "Ещё одно из применений бронесплава— создание укрытий.",
+	"type": "Wall",
+	"health": 890,
+	"size": 1,
+	"requirements": [
+		{ "item": "brona", "amount": 6 }
+	],
+	"category": "defense",
+		"research": "copper-wall"
+}

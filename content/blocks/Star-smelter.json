@@ -1,0 +1,31 @@
+{
+	"name": "Плавильная космической стали",
+	"type": "GenericSmelter",
+	"description": "с космической сталью ты сможешь построить космические корабли, и [white]вперёд к приключениям",
+	"hasPower": true,
+	"size": 3,
+	"hasLiquids": false,
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity": 20,
+	"consumes": {
+		"power": 3.5,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 3 },
+				{ "item": "thorium", "amount": 1 },
+{ "item": "silicon", "amount": 1 },
+			]
+		},
+	},
+	"requirements": [
+		{"item": "copper", "amount": 100},
+		{"item": "plastanium", "amount": 15},
+		{"item": "titanium", "amount": 50},
+		{"item": "thorium", "amount": 30},
+		{"item": "graphite", "amount": 10},
+	],
+	"category": "crafting",
+		"research": "alloy-smelter"
+	"outputItem": {"item": "star-steel", "amount": 1}
+}

@@ -1,0 +1,34 @@
+{
+	"type": "groundUnit",
+	"name": "Тяжёлый шагоход АТ-АТ",
+	"description": "
+AT-AT представляет собой бронированную четырёхногую боевую машину, вооружённую лазерными орудиями. Используется для уничтожения республиканских сил и очагов востаний.",
+	"speed": 0.03,
+"baseRotateSpeed": 0.02
+	"flying": false,
+	"health": 400,
+	"engineOffset": 1.8,
+	"weaponOffsetY": 0.7,
+"shootCone": 200
+	"range": 150,
+"targetAir": true
+	"weapon": {
+		"name": "Тяжёлые бластеры",
+		"length": 1.3,
+		"width": 3,
+		"reload": 50,
+		"alternate": false,
+		"bullet": {
+		     "type": "FlakBulletType"
+            "damage": 120,
+            "lifetime": 40,
+            "speed": 5,
+            "frontColor": "#ff0000",
+            "backColor": "#ff0000",
+            "bulletWidth": 10,
+            "bulletHeight": 30,
+            "hitEffect": "hitLaser"
+            "despawnEffect": "hitLaser"
+		}
+	}
+}

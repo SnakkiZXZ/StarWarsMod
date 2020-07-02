@@ -1,0 +1,32 @@
+{
+	"type": "flyingUnit",
+	"name": "бомбардировщик TIE",
+	"description": "Бомбардировщики TIE используются империей для точечных ударов и уничтожения больших кораблей. По сравнению с обычными СИД истребителями бомбардировщики TIE более медленные, но и более защищённые. Так-же могут быть размещены на крупных кораблях.",
+	"flying": true,
+	"speed": 0.10,
+	"health": 400,
+	"engineOffset": 1.8,
+	"weaponOffsetY": 1.0,
+	"range": 10,
+	"weapon": {
+		"length": 1,
+		"reload": 100,
+	    "ejectEffect": "shellEjectSmall",
+        "shootSound": "shoot",
+        "targetDistance": 120
+        "bullet": {
+            "type": "BombBulletType",
+            "damage": 300,
+            "lifetime": 30,
+            "speed": 1,
+            "frontColor": #eeae4a,
+            "backColor": #eeae9a,
+            "bulletWidth": 20,
+            "bulletHeight": 20,
+            "hitEffect": "flakExplosionBig",
+			"despawnEffect": "flakExplosionBig",
+			"splashDamageRadius": 14,
+		    "splashDamage": 120
+        }
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "имперский конвейер",
+	"description": "Хороший конвейер собранный по имперским технологиям",
+	"health": 500,
+	"requirements": [
+		{"item": "star-steel", "amount": 1},
+		{"item": "silicon", "amount": 2},
+	],
+	"category": "distribution",
+	"speed": 0.14
+		"research": "titanium-conveyor"
+}

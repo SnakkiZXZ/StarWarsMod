@@ -1,0 +1,18 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Имперский тепловой генератор",
+	"description": "Улучшеный генератор, работающий от тепла горящих материалов, Вырабатывает больше энергии чем обычный",
+	"itemCapacity": 10,
+	"size": 2,
+	"hasLiquids": true,
+    "powerProduction": 4,
+    "itemDuration" : 120,
+	"requirements": [
+		{"item": "titanium", "amount": 85},
+		{"item": "magnit", "amount": 70},
+		{"item": "silicon", "amount": 50},
+		{"item": "glass", "amount": 40}
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}

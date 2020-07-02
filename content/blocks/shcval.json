@@ -1,0 +1,96 @@
+{
+"type": "ArtilleryTurret",
+"name": "Шквал",
+"description": "Запускает, а затем сбрасывает на врагов мощные снаряды",
+"targetAir": false,
+"targetGround": true,
+"health": 600,
+"size": 1,
+"inaccuracy": 0.5,
+"reload": 45,
+"shots": 5,
+"range": 300,
+"burstSpacing": 5,
+"ammo": {
+"blast-compound": {
+"speed": 2,
+"type": "ArtilleryBulletType"
+"damage": 40,
+"bulletWidth": 8,
+"bulletHeight": 9,
+"shootEffect": "shootBig",
+"smokeEffect": "shootBigSmoke",
+"ammoMultiplier": 1,
+"hitEffect": "blastExplosion"
+"splashDamageRadius": 12,
+"splashDamage": 10,
+"frontColor": "#A6607D",
+"backColor": "#A6607D",
+"incendSpread": 8,
+"incendAmount": 10
+},
+"lead": {
+"speed": 2,
+"type": "ArtilleryBulletType"
+"damage": 20,
+"bulletWidth": 8,
+"bulletHeight": 9,
+"shootEffect": "shootBig",
+"smokeEffect": "shootBigSmoke",
+"hitEffect": "hitBulletBig"
+"ammoMultiplier": 1
+		"splashDamageRadius": 8,
+		"splashDamage": 5
+},
+"titanium": {
+"speed": 2, 
+"damage": 35,
+"bulletWidth": 8,
+"type": "ArtilleryBulletType"
+"bulletHeight": 9,
+"shootEffect": "shootBig",
+"smokeEffect": "shootBigSmoke",
+"ammoMultiplier": 1
+"frontColor": "#738895",
+"backColor": "#738895",
+"splashDamageRadius": 9,
+"splashDamage": 5
+"fragBullets": 10
+"hitEffect": "hitBulletBig"
+"fragBullet": {
+    "type": "BasicBulletType"
+    "damage": 8,
+    "lifetime": 5,
+    "speed": 3,
+    "hitEffect": "none"
+    "frontColor": "#738895",
+    "backColor": "#738895",
+    "bulletWidth": 2,
+    "bulletHeight": 3,
+    "despawnEffect": "none"
+}
+},"thorium": {
+"speed": 2,
+"damage": 42,
+"bulletWidth": 8,
+"type": "ArtilleryBulletType"
+"bulletHeight": 9,
+"shootEffect": "shootBig",
+"smokeEffect": "reactorsmoke",
+"hitEffect": "blockExplosionSmoke"
+"ammoMultiplier": 1
+    "frontColor": "#A286AC",
+    "backColor": "#A286AC",
+		"splashDamageRadius": 10,
+		"splashDamage": 15
+},},
+"requirements": [
+{ "item": "silicon", "amount": 20},
+{ "item": "graphite", "amount": 20},
+{ "item": "copper", "amount": 40},
+{ "item": "glass", "amount": 30}
+],
+"category": "turret",
+"shootSound": "shootBig"
+	"research": "hail"
+}

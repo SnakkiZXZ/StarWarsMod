@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Бронеплавительный завод",
+	"description": "На этих заводах империя создаёт броню широко использующуюся в военном деле. Лучшие учёные империи выяснили что при соединении песка с титаном получается довольно крепкий сплав который может использоваться как броня для наземных войск.",
+	"health": 200,
+	"itemCapacity": 10,
+	"outputItem": {"item": "brona", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 },
+				{ "item": "sand", "amount": 2 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "metaglass", "amount": 20 },
+		{ "item": "silicon", "amount": 25 },
+{ "item": "copper", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.1
+		"research": "glass-forge"
+}

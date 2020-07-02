@@ -1,0 +1,28 @@
+{
+	"name": "Завод АТ-АТ",
+	"description": "Производит большие шагоходы типа: АТ-АТ.",
+	"type": "UnitFactory",
+	"unitType": "AT-AT",
+	"size": 4,
+	"maxSpawn": 2,
+	"produceTime": 1000,
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "brona", "amount": 20 },
+				{ "item": "silicon", "amount": 10 }
+				{ "item": "titanium", "amount": 10 }
+			]
+		},
+	},
+	"category": "units",
+	"research": "AT-ST-crafter",
+	"requirements": [
+		{ "item": "graphite", "amount": 105 },
+		{ "item": "plastanium", "amount": 65 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "star-steel", "amount": 40 }
+	]
+}

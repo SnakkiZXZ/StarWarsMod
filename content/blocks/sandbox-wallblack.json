@@ -1,0 +1,5 @@
+{
+	"name": "Имперская стена",
+	"type": "StaticWall",
+	"variants": 2
+}

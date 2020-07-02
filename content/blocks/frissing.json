@@ -1,0 +1,60 @@
+{
+"type": "ItemTurret",
+"name": "Хладомёт",
+"description": "Расщепляет материал, совмещая его с охлаждённым воздухом для создания хладогента, после чего выпускает его мощной струёй по врагам. Замораживает и ослабляет  броню, делая её рушимой даже для прорыва ветра.",
+"targetAir": true,
+"targetGround": true,
+"health": 2200,
+"size": 3,
+"heatColor": "#7AD0FF"
+"inaccuracy": 6,
+"reload": 2,
+"shots": 1,
+"range": 110,
+"ammo": {
+    "titanium": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 25,
+        "trailColor": "#00ffff"
+        "bulletWidth": 7,
+        "bulletHeight": 8,
+        "frontColor": "#9FE6FF",
+"backColor": "#7AD0FF",
+"shootEffect": "shootLiquid",
+"smokeEffect": "none",
+        "ammoMultiplier": 10,
+        "homingPower": 0,
+        "despawnEffect": "none",
+        "status": "freezing"
+		"statusDuration": 600
+},
+    "lead": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 18,
+        "trailColor": "#00ffff"
+        "bulletWidth": 9,
+        "bulletHeight": 20,
+        "frontColor": "#9FE6FF",
+"backColor": "#7AD0FF",
+"shootEffect": "shootLiquid",
+"smokeEffect": "none",
+        "ammoMultiplier": 10,
+        "reloadMultiplier": 0.8,
+		"despawnEffect": "none",
+		"status": "freezing"
+		"statusDuration": 600
+		"homingPower": 0,
+    }
+},
+"requirements": [
+{ "item": "titanium", "amount": 134},
+{ "item": "graphite", "amount": 100},
+{ "item": "silicon", "amount": 80},
+{ "item": "brona", "amount": 210}
+],
+"category": "turret",
+"shootSound": "bamg"
+	"research": "scorch"
+}

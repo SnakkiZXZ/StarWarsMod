@@ -1,0 +1,12 @@
+{
+"type": "resource",
+"name": "Солнечная панель",
+"description": "Малая ячейка большой солнечной панели, используется как источник питания для малых космических кораблей",
+"color": "#eeeeee",
+"radioactivity": 0,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "4",
+"cost": 0.2,
+"alwaysUnlocked": true
+}

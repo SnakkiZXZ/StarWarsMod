@@ -1,0 +1,18 @@
+{
+	"name": "сборщик строительного дрона",
+	"description": "Перестраивает мех в строительного дрона.",
+	"type": "MechPad",
+	"mech": "starMech",
+	"size": 2,
+	"consumes": {
+		"power": 1.5,
+	},
+	"category": "upgrade",
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "thorium", "amount": 15 },
+		{ "item": "glass", "amount": 24 },
+{ "item": "star-steel", "amount": 15 },
+	]
+	"research": "tau-mech-pad"
+}

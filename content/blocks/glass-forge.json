@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Имперский завод по производству стекла",
+	"description": "просто мини завод по производству стекла.",
+	"health": 200,
+	"itemCapacity": 10,
+	"outputItem": {"item": "glass", "amount": 1},
+	"size": 1,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 2 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 15 },
+		{ "item": "copper", "amount": 20 },
+		{ "item": "graphite", "amount": 10 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.1
+		"research": "melter"
+}

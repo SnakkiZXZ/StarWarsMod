@@ -1,0 +1,18 @@
+{
+	"type": "ThermalGenerator",
+	"name": "Имперский генератор холода",
+	"description": "Особый генератор, выпабатывающий энергию не от тепла горения, а от холода льда и снега.",
+	"size": 2,
+	"heating": 0.05,
+	"hasLiquids": false,
+    "powerProduction": 1.5,
+	"updateEffect": "smeltsmoke",
+	"attribute": "water"
+	"requirements": [
+		{"item": "magnit", "amount": 70},
+		{"item": "silicon", "amount": 50},
+		{"item": "glass", "amount": 40}
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}

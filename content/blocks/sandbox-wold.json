@@ -1,0 +1,13 @@
+{
+	"name": "Пустота",
+	"type": "Floor",
+	"variants": 3,
+	"breakable": false
+	"drownTime": 100
+	"damageTaken": 5
+	"placeableOn": false
+	"status": "corroded"
+	"statusDuration": 120
+	"edge": "stone"
+	"isLiquid": true,
+}

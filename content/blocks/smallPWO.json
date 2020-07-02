@@ -1,0 +1,62 @@
+{
+"type": "DoubleTurret",
+"name": "Малая ПВО",
+"description": "Мощная турель, атакующая любые воздушные цели. Предназначается для охраны важных предприятий от атак с воздуха, также устанавливается на тяжёлые крейсера в качестве основного оружия.",
+"targetAir": true,
+"targetGround": false,
+"health": 1300,
+"size": 2,
+"inaccuracy": 2,
+"reload": 12,
+"shots": 1,
+"range": 210,
+"burstSpacing": 200,
+"ammo": {
+"scrap": {
+"speed": 5,
+"xRand": 40, 
+"damage": 15,
+"bulletWidth": 10,
+"bulletHeight": 14,
+"shootEffect": "shootSmall",
+"smokeEffect": "shootSmallSmoke",
+	"hitEffect": "hitBulletSmall",
+"ammoMultiplier": 4
+},
+"lead": {
+"speed": 5,
+"damage": 16,
+"xRand": 12, 
+"bulletWidth": 10,
+"bulletHeight": 14,
+"shootEffect": "shootSmall",
+"smokeEffect": "shootSmallSmoke",
+	"hitEffect": "hitBulletSmall",
+"ammoMultiplier": 4
+"reloadMultiplier": 0.8
+},
+    "silicon": {
+"speed": 5,
+"xRand": 40, 
+"damage": 15,
+"bulletWidth": 10,
+"bulletHeight": 14,
+"shootEffect": "shootSmall",
+"smokeEffect": "shootSmallSmoke",
+"hitEffect": "hitBulletSmall",
+"ammoMultiplier": 2
+"reloadMultiplier": 1.4
+"homingPower": 1,
+"homingRange": 20,
+}
+},
+"requirements": [
+{ "item": "silicon", "amount": 45},
+{ "item": "graphite", "amount": 56},
+{ "item": "copper", "amount": 95},
+{ "item": "lead", "amount": 112}
+],
+"category": "turret",
+"shootSound": "bigshot"
+	"research": "microPWO"
+}

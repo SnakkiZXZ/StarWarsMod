@@ -1,0 +1,50 @@
+{
+	"type": "flyingUnit",
+	"name": "Супер разрушитель",
+	"description": "Класс сверхбольших боевых космических кораблей. Огромный флагман 'Палач' обладает сверх-сильной бронёй и особым типом орудия, способным уничтожать целые флотилии. ",
+	"mass": 1000,
+	"hitsize": 160,
+	"speed": 0.01,
+	"maxVelocity": 0.2,
+	"drag": 0.03,
+	"flying": true,
+	"shootCone": 20,
+	"health": 90000,
+    "rotateWeapon": true,
+	"weaponOffsetY": -35,
+	"weaponOffsetX": 35,
+	"engineOffset": 60.0,
+	"engineSize": 30.3,
+	"range": 200,
+	"baseRotateSpeed": 0.01,
+	"attackLength": 200,
+	"weapon": {
+		"name": "superbracker-weapon",
+		"length": -38,
+		"width": 35,
+	    "ignoreRotation": true,
+	    "rotatespeed": 0.09,
+	    "targetDistance": 200,
+		"reload": 30,
+		"shots": 2,
+		"inaccuracy": 2,
+		"shotDelay": 7,
+		"alternate": true,
+		"spacing": 0.1,
+		"bullet": {
+		    "type": "BasicBulletType",
+            "damage": 400,
+            "lifetime": 50,
+            "speed": 4,
+            "frontColor": "#00fe10",
+            "backColor": "#00ff15",
+            "bulletWidth": 10,
+            "bulletHeight": 26,
+            "shootEffect": "shootBig"
+		    "smokeEffect": "shootBigSmoke"
+            "hitEffect": "hitLaser"
+            "despawnEffect": "hitLaser"
+		}, 
+		"shootSound": "artillery"
+	}
+}

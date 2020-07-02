@@ -1,0 +1,34 @@
+name: Астероиды
+description: На орбите планеты была обнаружена небольшая вражеская база. Размещённая прямо на астероиде она следила за сохранностью маяка, направляющего корабли на планету.
+loadout: basicFoundation
+startingItems: [
+  copper/700, 
+  lead/700, 
+  titanium/400, 
+  graphite/400, 
+  silicon/400, 
+  ]
+requirements: [
+  {
+    type: ZoneWave
+    zone: fungalPass
+    wave: 20
+  },
+  {
+    type: Unlock
+    block: istrebitel-crafter
+  },
+  {
+    type: Unlock
+    block: brona-wall
+  },
+]
+conditionWave: 40
+launchPeriod: 40
+resources: [
+  copper
+  lead
+  titanium
+  thorium
+  scrap
+]

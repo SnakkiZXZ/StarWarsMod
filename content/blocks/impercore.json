@@ -1,0 +1,9 @@
+{
+	"name": "Ядро: Сборщик",
+	"type": "CoreBlock",
+	"destructible": false
+	"health": 100000
+	"mech": "starMech"
+	"itemCapacity": 50000
+	"size": 4
+}

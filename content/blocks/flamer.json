@@ -1,0 +1,53 @@
+{
+"type": "ItemTurret",
+"name": "Огнемёт",
+"description": "Мощная турель, сначала зажигает материал, после чего запускает его огненной струёй на небольшой радиус. Способна плавить даже самую крепкую броню как наземных шагоходов, так и воздушных истребителей TIE.",
+"targetAir": true,
+"targetGround": true,
+"health": 2200,
+"size": 3,
+"inaccuracy": 6,
+"reload": 2,
+"shots": 1,
+"range": 110,
+"ammo": {
+    "pyratite": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 30,
+        "bulletWidth": 7,
+        "bulletHeight": 8,
+"shootEffect": "shootPyraFlame",
+"smokeEffect": "none",
+        "ammoMultiplier": 10,
+        "homingPower": 0,
+        "despawnEffect": "none",
+        "incendSpread": 3,
+        "incendAmount": 3
+},
+    "coal": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 20,
+        "bulletWidth": 9,
+        "bulletHeight": 20,
+"shootEffect": "shootPyraFlame",
+"smokeEffect": "none",
+        "ammoMultiplier": 10,
+        "reloadMultiplier": 0.8,
+		"despawnEffect": "none",
+		"homingPower": 0,
+		"incendSpread": 3,
+        "incendAmount": 3
+    }
+},
+"requirements": [
+{ "item": "titanium", "amount": 134},
+{ "item": "graphite", "amount": 100},
+{ "item": "silicon", "amount": 80},
+{ "item": "brona", "amount": 210}
+],
+"category": "turret",
+"shootSound": "bamg"
+	"research": "scorch"
+}

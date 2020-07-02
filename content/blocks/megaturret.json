@@ -1,0 +1,47 @@
+{
+"type": "DoubleTurret",
+"name": "Противовоздушная установка",
+"description": "Мощная турель, атакующая любые воздушные цели. Предназначается для охраны важных предприятий от атак с воздуха, также устанавливается на тяжёлые крейсера в качестве основного оружия.",
+"targetAir": true,
+"targetGround": false,
+"health": 4000,
+"size": 4,
+"inaccuracy": 1,
+"reload": 10,
+"shots": 2,
+"range": 250,
+"burstSpacing": 200,
+"ammo": {
+"titanium": {
+"speed": 5,
+"xRand": 40, 
+"damage": 65,
+"bulletWidth": 15,
+"bulletHeight": 19,
+"shootEffect": "shootBig2",
+"smokeEffect": "shootBigSmoke2",
+	"hitEffect": "hitBulletBig",
+"ammoMultiplier": 4
+},
+"lead": {
+"speed": 5,
+"damage": 56,
+"xRand": 12, 
+"bulletWidth": 10,
+"bulletHeight": 15,
+"shootEffect": "shootBig2",
+"smokeEffect": "shootBigSmoke2",
+	"hitEffect": "hitBulletBig",
+"ammoMultiplier": 2
+},},
+"requirements": [
+{ "item": "titanium", "amount": 120},
+{ "item": "star-steel", "amount": 150},
+{ "item": "graphite", "amount": 220},
+{ "item": "magnit", "amount": 100},
+{ "item": "plastanium", "amount": 100}
+],
+"category": "turret",
+"shootSound": "bigshot"
+	"research": "fuse"
+}

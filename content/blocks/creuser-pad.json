@@ -1,0 +1,28 @@
+{
+	"name": "Цех лёгких крейсеров",
+	"description": "Производит лёгкие крейсера.",
+	"type": "UnitFactory",
+	"unitType": "miniCreuser",
+	"size": 6,
+	"maxSpawn": 2,
+	"produceTime": 1400,
+	"consumes": {
+		"power": 2.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 40 },
+				{ "item": "solar-panel", "amount": 10 }
+				{ "item": "giperprivod", "amount": 3 }
+			]
+		},
+	},
+	"category": "units",
+	"research": "Bombardir-unit-factory",
+	"requirements": [
+		{ "item": "graphite", "amount": 240 },
+		{ "item": "plastanium", "amount": 150 },
+		{ "item": "silicon", "amount": 180 },
+		{ "item": "titanium", "amount": 250 },
+		{ "item": "star-steel", "amount": 120 }
+	]
+}

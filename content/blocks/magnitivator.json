@@ -1,0 +1,27 @@
+{
+	"name": "Магнитизатор",
+	"type": "GenericCrafter",
+	"description": "Намагничивает титан, получая постоянный магнит. Требуется большое количество энергии для запуска катушек.",
+	"hasPower": true,
+	"size": 1,
+	"hasLiquids": false,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "catyhka", "amount": 4 },
+		{ "item": "titanium", "amount": 45 },
+		{"item": "silicon", "amount": 30}
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"outputItem": {"item": "magnit", "amount": 1}
+		"research": "glass-forge"
+}

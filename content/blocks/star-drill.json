@@ -1,0 +1,29 @@
+{
+	"name": "малый имперский бур",
+	"description": "Для добычи большого объёма ресурсов с малой площади империя разработала бур использующий силу кайбер кристаллов для бурения особо твёрдых пород",
+	"type": "Drill",
+	"size": 2,
+	"health": 2800,
+	"tier": 10,
+	"drillTime": 120,
+	"rotateSpeed": 6,
+	"drawRim": true
+	"updateEffect": "pulverizeRed"
+	"updateEffectChance": 0.03
+	"consumes": {
+		"power": 2.0
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.1,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "dark-cristal", "amount": 4 },
+		{ "item": "star-steel", "amount": 150 },
+		{ "item": "titanium", "amount": 120 }
+	],
+	"category": "production"
+		"research": "mini-drill"
+}

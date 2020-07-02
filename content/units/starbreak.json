@@ -1,0 +1,51 @@
+{
+	"name": "Звёздный разрушитель",
+	"description": "Класс боевых космических кораблей. Флагман обладает сильной бронёй и большим уроном для уничтожения любого потанциального врага. Является 'визитной карточкой' имперского флота.",
+	"mass": 150,
+	"hitsize": 70,
+	"rotateSpeed": 0.01,
+	"speed": 0.01,
+	"maxVelocity": 0.4,
+	"drag": 0.02,
+	"flying": true,
+	"shootCone": 20,
+	"health": 11000,
+	"rotateWeapon": true,
+	"weaponOffsetY": 0,
+	"weaponOffsetX": 0,
+	"engineOffset": 31.0,
+	"engineSize": 15.3,
+	"range": 200,
+	"baseRotateSpeed": 0.005,
+	"attackLength": 200,
+	"weapon": {
+		"name": "starbreak-weapon",
+		"length": 7,
+		"width": 15,
+	    "ignoreRotation": false,
+	    "targetDistance": 220
+		"reload": 15,
+		"shots": 1,
+		"inaccuracy": 2,
+		"shootCone": 100,
+		"shotDelay": 0,
+		"alternate": true,
+		"velocityRnd": 0.2,
+		"spacing": 1,
+		"bullet": {
+		    "type": "BasicBulletType",
+            "damage": 300,
+            "lifetime": 50,
+            "speed": 4,
+            "frontColor": "#00fe10",
+            "backColor": "#00ff15",
+            "bulletWidth": 10,
+            "bulletHeight": 25,
+            "shootEffect": "shootBig"
+		    "smokeEffect": "shootBigSmoke"
+            "hitEffect": "hitLaser"
+            "despawnEffect": "hitLaser"
+		}, 
+		"shootSound": "artillery"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"type": "NuclearReactor",
+	"name": "Имперский паровой генератор",
+	"description": "Улучшенный паровой генератор, разделённый на четыре ячейки. Может перегреться и взорваться от недостатка воды",
+	"itemCapacity": 5,
+	"size": 2,
+	"heating": 0.05,
+	"hasLiquids": true,
+	"explosionDamage": 320
+	"explosionRadius": 20
+    "powerProduction": 10,
+    "itemDuration" : 120,
+	"consumes": {
+		"item": "coal",
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.1
+		}
+    },
+	"requirements": [
+		{"item": "titanium", "amount": 85},
+		{"item": "magnit", "amount": 70},
+		{"item": "silicon", "amount": 50},
+		{"item": "glass", "amount": 40}
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}

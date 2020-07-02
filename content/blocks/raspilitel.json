@@ -1,0 +1,43 @@
+{
+"type": "ItemTurret",
+"name": "распылитель",
+"description": "Под мощным потоком воздуха распыляет песок, или стеклянные осколки нанося небольшой урон по большой площади.",
+"targetAir": true,
+"targetGround": true,
+"health": 420,
+"size": 1,
+"inaccuracy": 5,
+"reload": 20,
+"shots": 10,
+"range": 80,
+"burstSpacing": 1,
+"ammo": {
+"sand": {
+"speed": 5,
+"damage": 2,
+"bulletWidth": 2,
+"bulletHeight": 2,
+"shootEffect": "shellEjectSmall",
+"smokeEffect": "hitLiquid",
+"ammoMultiplier": 5
+"despawnEffect": "none"
+},
+"glass": {
+"speed": 5,
+"damage": 3,
+"bulletWidth": 2,
+"bulletHeight": 2,
+"shootEffect": "shellEjectSmall",
+"smokeEffect": "hitLiquid",
+"ammoMultiplier": 5
+"despawnEffect": "none"
+},},
+"requirements": [
+{ "item": "copper", "amount": 30},
+{ "item": "graphite", "amount": 20},
+{ "item": "lead", "amount": 30}
+],
+"category": "turret",
+"shootSound": ""	
+"research": "shcval"
+}

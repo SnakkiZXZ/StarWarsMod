@@ -1,0 +1,36 @@
+{
+	"name": "Сборщик гипердрайва",
+	"type": "GenericCrafter",
+	"health": 1200,
+	"description": "Сборка гипердвигателя довольно трудоёмкий процесс, требующий постоянного охлаждения. Мощный процессор, усиленный кайбер кристаллами и магнитным полем позволяет буквально сжимать пространство перед собой, что способствует почти моментальному  перемещению по галактике.",
+	"hasPower": true,
+	"size": 4,
+	"hasLiquids": true,
+	"craftTime": 130,
+	"updateEffect": "nuclearsmoke",
+	"itemCapacity": 20,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "star-steel", "amount": 5 },
+				{ "item": "dark-cristal", "amount": 20 },
+				{"item": "plastanium", "amount": 7},
+                {"item": "magnit", "amount": 5}, 
+			]
+		},
+		"power": 4.3
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.3
+		}
+	},
+	"requirements": [
+		{"item": "surge-alloy", "amount": 84},
+		{"item": "metaglass", "amount": 120},
+		{"item": "titanium", "amount": 160},
+		{"item": "silicon", "amount": 98}
+	],
+	"category": "crafting",
+	"research": "big-silicon-smelter",
+	"outputItem": {"item": "giperprivod", "amount": 1}
+}

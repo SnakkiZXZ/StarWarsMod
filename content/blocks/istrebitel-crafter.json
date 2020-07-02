@@ -1,0 +1,27 @@
+{
+	"name": "Завод СИД истребителей",
+	"description": "Производит имперские СИД истребители.",
+	"type": "UnitFactory",
+	"unitType": "Istrebitel",
+	"size": 2,
+	"maxSpawn": 5,
+	"produceTime": 600,
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 10 },
+				{ "item": "solar-panel", "amount": 2 }
+			]
+		},
+	},
+	"category": "units",
+	"requirements": [
+		{ "item": "lead", "amount": 45 },
+		{ "item": "copper", "amount": 45 },
+		{ "item": "silicon", "amount": 35 },
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "graphite", "amount": 40 }
+	]
+		"research": "phantom-factory"
+}

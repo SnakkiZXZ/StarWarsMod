@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "Катушечный завод",
+	"description": "Довольно сложное по своему строению устройство для наматывания медной проволоки на свинцовый стержень.",
+	"health": 120,
+	"itemCapacity": 10,
+	"outputItem": {"item": "catyhka", "amount": 4},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.9,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 4 },
+				{ "item": "lead", "amount": 4 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "graphite", "amount": 25 },
+		{ "item": "silicon", "amount": 60 },
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.1
+		"research": "graphite-press"
+}

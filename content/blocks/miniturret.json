@@ -1,0 +1,34 @@
+{
+	"type": "ChargeTurret",
+	"name": "Малая катушечная турель",
+	"description": "Эта турель использует электромагниты как катушку Теслы. Две катушки по бокам сначала заряжаются, после чего делают ряд мощных выстрелов",
+	"health": 150,
+	"reload": 10,
+	"rotatespeed": 12,
+	"powerUse": 0.9,
+	"targeAir": true,
+	"targeGround": true,
+	"range": 120,
+	"size": 1,
+	"chargeTime": 50,
+	"chargeMaxDelay": 30,
+	"chargeEffects": 7,
+	"shootType": "arc",
+	"lightningLength": 30,
+	"recoil": 1,
+	"cooldown": 2,
+	"shootShake": 0.3,
+	"chargeEffect": "lancerLaserCharge",
+	"chargeBeginEffect": "lancerLaserChargeBegin",
+	"heatColor": "ff0000",
+	"shootSound": "spark",
+	"requirements": [
+		{ "item": "graphite", "amount": 5 },
+		{ "item": "titanium", "amount": 20 },
+		{ "item": "catyhka", "amount": 2 },
+		{ "item": "copper", "amount": 10 },
+		{ "item": "star-steel", "amount": 50 }
+	],
+	"category": "turret"
+	"research": "arc"
+}

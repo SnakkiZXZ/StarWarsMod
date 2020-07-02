@@ -1,0 +1,69 @@
+{
+"type": "LiquidTurret"
+"name": "Потоковый усилитель"
+"description": "Пропускает мощный поток жидкости через маленькое сопло, тем самым ещё сильнее ускоряя его."
+"size": 3
+"health": 2500
+"range": 180
+"maxAmmo": 40
+"reload": 1
+"inaccuracy": 10
+"shootSound": "splash"
+"shootEffect": "shootLiquid"
+"liquidCapacity": 40
+"shots": 2,
+"ammo": {
+	"water": {
+		"type": "LiquidBulletType"
+		"liquid": "water"
+		"damage": 2
+		"shootEffect": "shootLiquid"
+		"speed": 3
+		"knockback": 0.7
+		"ammoMultiplier": 1
+		"status": "wet"
+		"statusDuration": 600
+	}
+	"slag": {
+		"type": "LiquidBulletType"
+		"liquid": "slag"
+		"damage": 5
+		"speed": 3
+		"shootEffect": "shootLiquid"
+		"knockback": 0.6
+		"ammoMultiplier": 1
+		"status": "burning"
+		"statusDuration": 600
+	}
+	"oil": {
+		"type": "LiquidBulletType"
+		"liquid": "oil"
+		"damage": 1
+		"speed": 3
+		"shootEffect": "shootLiquid"
+		"knockback": 0.6
+		"ammoMultiplier": 1
+		"status": "tarred"
+		"statusDuration": 600
+	}
+	"cryofluid": {
+		"type": "LiquidBulletType"
+		"liquid": "cryofluid"
+		"damage": 1
+		"speed": 3
+		"shootEffect": "shootLiquid"
+		"knockback": 0.6
+		"ammoMultiplier": 1
+		"status": "freezing"
+		"statusDuration": 600
+	}
+}
+"requirements": [
+{ "item": "glass", "amount": 120}
+{ "item": "brona", "amount": 80}
+{ "item": "silicon", "amount": 210}
+{ "item": "plastanium", "amount": 115}
+],
+"category": "turret"
+"research": "wave"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "стена из космической стали",
+	"description": "чаще всего используется как стена для заводов.",
+	"type": "Wall",
+	"health": 1526,
+	"size": 1,
+	"requirements": [
+		{ "item": "star-steel", "amount": 6 }
+	],
+	"category": "defense",
+		"research": "brona-wall"
+}

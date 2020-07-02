@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Бронесплав",
+	"description": "Довольно крепкий бронесплав, используется как броня наземных войск",
+	"hardness": 10,
+	"cost": 2,
+	"color": "#eeeeee",
+	"radioactivity": 0
+	"explosiveness": 0
+	"flammability": 0.1
+}

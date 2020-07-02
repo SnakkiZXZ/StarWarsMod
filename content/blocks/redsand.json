@@ -1,0 +1,6 @@
+{
+	"name": "Красный песок",
+	"type": "Floor",
+	"itemDrop": "sand"
+	"variants": 3
+}

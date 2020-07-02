@@ -1,0 +1,45 @@
+{
+	"name": "Десант",
+	"description": "небольшой мех, раньше использовался для перевозки пехоты. Теперь переоборудован под строительные и буровые работы.",
+	"speed": 0.4,
+	"drillPower": 3,
+"mass": 5, 
+"mineSpeed": 3,
+"drag": 0.09, 
+"hitsize": 15, 
+"cellTrnsY": 2, 
+	"buildPower": 2.1,
+	"engineColor": "FF0000",
+	"engineSize": 2, 
+	"flying": true,
+	"health": 140,
+	"weaponOffsetX": 3,
+	"weaponOffsetY": 0,
+	"range": 100,
+	"weapon": {
+		"name": "starMech-weapon",
+		"length": -1,
+	    "width": 3,
+		"reload": 180,
+		"inaccuracy": 4,
+		"shots": 10,
+		"shotDelay": 5,
+		"alternate": true,
+		"spacing": 1,
+		"shake": 0.5,
+		"ejectEffect": "shellEjectSmall",
+		"targetDistance": 100,
+		"bullet": {
+		    "type": "MissileBulletType",
+		    "damage": 15,
+		    "lifetime": 60,
+		    "speed": 2,
+		    "hitEffect": "flakExplosion"
+		    "despawnEffect": "flakExplosion"
+		    "shootEffect": "shootSmall"
+		    "smokeEffect": "shootSmallSmoke"
+		    "weaveMag": 2
+		    "weaveScale": 5
+		}
+	}
+}

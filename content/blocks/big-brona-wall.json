@@ -1,0 +1,12 @@
+{
+	"name": "Большая стена из бронесплава",
+  "description": "То-же укрытие, но больше",
+  "type": "wall",
+  "health": 3700,
+  "size": 2,
+  "requirements": [
+		{ "item": "brona", "amount": 24 }
+	],
+  "category": "defense",
+  	"research": "brona-wall"
+}

@@ -1,0 +1,51 @@
+{
+	"type": "HoverUnit",
+	"name": "Лёгкий крейсер",
+	"description": "
+Эти малые крейсера используются в основном для перевозки военных грузов и сопровождении более крупных кораблей. Обладают хорошей огневой мощью и могут транспортировать истребители TIE",
+	"mass": 15,
+	"hitsize": 40,
+	"speed": 0.05,
+	"drag": 0.02,
+	"flying": true,
+	"health": 4000,
+	"weaponOffsetY": 7.5,
+	"weaponOffsetYX": -6,
+	"engineOffset": 25.0,
+	"engineSize": 6.3,
+	"range": 170,
+	"attackLength": 150,
+	"weapon": {
+		"name": "miniCreuser-weapon",
+		"length": 1.5,
+		"width": 5.5,
+	    "ignoreRotation": true,
+	    "rotatespeed": 2
+	    "targetDistance": 160
+		"reload": 39,
+		"shots": 2,
+		"inaccuracy": 2,
+		"shootCone": 100,
+		"shotDelay": 2,
+		"alternate": true,
+		"velocityRnd": 0.2,
+		"spacing": 1,
+		"bullet": {
+		    "type": "BasicBulletType",
+            "damage": 90,
+            "lifetime": 40,
+            "speed": 4,
+            "frontColor": "#00fe10",
+            "backColor": "#00fe10",
+            "bulletWidth": 6,
+            "bulletHeight": 12,
+            "homingPower": 1,
+            "homingRange": 15,
+            "shootEffect": "shootSmall"
+		    "smokeEffect": "shootSmallSmoke"
+            "hitEffect": "hitLaser"
+            "despawnEffect": "hitLaser"
+		}, 
+		"shootSound": "artillery"
+	}
+}

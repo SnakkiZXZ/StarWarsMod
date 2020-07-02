@@ -1,0 +1,29 @@
+{
+	"name": "Маленькая буровая установка",
+	"description": "Империя использует этих механических малышей когда ресурсов максимально мало. По мощности не уступает медному, однако бурит всё",
+	"type": "Drill",
+	"size": 1,
+	"health": 150,
+	"tier": 12,
+	"drillTime": 230,
+	"rotateSpeed": 12,
+	"drawRim": true
+	"updateEffect": "pulverizeRed"
+	"drillEffect": "healWaveMend"
+	"updateEffectChance": 0.03
+	"consumes": {
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.3,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "dark-cristal", "amount": 1 },
+		{ "item": "star-steel", "amount": 50 },
+		{ "item": "titanium", "amount": 20 }
+	],
+	"category": "production"
+		"research": "laser-drill"
+}

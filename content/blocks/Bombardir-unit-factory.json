@@ -1,0 +1,26 @@
+{
+	"name": "Завод имперских бомбардировщиков",
+	"description": "Производит тяжёлые имперские бомбардировщики",
+	"type": "UnitFactory",
+	"unitType": "bombardirovshik",
+	"size": 3,
+	"maxSpawn": 3,
+	"produceTime": 1000,
+	"consumes": {
+		"power": 1.56,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 20 },
+				{ "item": "solar-panel", "amount": 6 },
+			]
+		},
+	},
+	"category": "units",
+	"research": "istrebitel-crafter",
+	"requirements": [
+		{ "item": "star-steel", "amount": 40 },
+		{ "item": "silicon", "amount": 63 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "titanium", "amount": 98 },
+	]
+}

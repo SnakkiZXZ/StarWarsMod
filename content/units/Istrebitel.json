@@ -1,0 +1,31 @@
+{
+	"type": "flyingUnit",
+	"name": "СИД истребитель",
+	"description": "СИД истребители часто используются как основная боевая воздушная еденица имперских войск. Быстрые и манёвренные, но очень хрупкие СИД истребители также размещаются на других кораблях.",
+	"speed": 0.12,
+	"flying": true,
+	"health": 150,
+	"engineOffset": 1.8,
+	"weaponOffsetY": -2.0,
+	"range": 140,
+	"weapon": {
+		"name": "Зарядные бластеры",
+		"length": 1.3,
+		"width": 3,
+		"reload": 40,
+		"shots": 1,
+		"alternate": false,
+		"bullet": {
+		     "type": "FlakBulletType"
+            "damage": 45,
+            "lifetime": 30,
+            "speed": 5,
+            "frontColor": "#00fe10",
+            "backColor": "#00fe10",
+            "bulletWidth": 6,
+            "bulletHeight": 12,
+            "hitEffect": "hitLaser"
+            "despawnEffect": "hitLaser"
+		}
+	}
+}
