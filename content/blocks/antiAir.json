@@ -16,6 +16,7 @@
 "damage": 65,
 "lifetime": 54,
 "bulletWidth": 15,
+"shootShake": 0.5,
 "bulletHeight": 19,
 "shootEffect": "shootBig2",
 "smokeEffect": "shootBigSmoke2",

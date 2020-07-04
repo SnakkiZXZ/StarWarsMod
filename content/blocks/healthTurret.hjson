@@ -1,0 +1,22 @@
+name: "Шаровая ремонтная турель"
+description: 'Создана на основе ремонтных дронов и ремонтного проектора. Запускает мощные щары плазмы, которые при врыве ремонтируеют все ближайшие блоки своей команды'
+health: 320
+size: 2
+inaccuracy: 1
+shots: 1
+range: 130
+reload: 90
+chargeTime: 90
+chargeMaxDelay: 15
+chargeEffects: 5
+shootShake: 3
+category: effect
+requirements: [
+    graphite/45
+    titanium/100
+    lead/85
+    silicon/65
+    plastanium/45
+]
+shootSound: beam
+research: mend-projector

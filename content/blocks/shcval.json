@@ -6,10 +6,10 @@
 "targetGround": true,
 "health": 600,
 "size": 1,
-"inaccuracy": 0.5,
+"inaccuracy": 3,
 "reload": 45,
-"shots": 5,
-"range": 300,
+"shots": 1,
+"range": 210,
 "burstSpacing": 5,
 "ammo": {
 "blast-compound": {

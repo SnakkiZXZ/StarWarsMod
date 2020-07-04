@@ -9,7 +9,8 @@
 "inaccuracy": 0,
 "reload": 79,
 "shots": 1,
-"range": 500,
+"range": 300,
+"shootShake": 0.9,
 "ammo": {
     "scrap": {
         "speed": 30,

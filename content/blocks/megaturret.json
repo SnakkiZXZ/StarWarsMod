@@ -14,7 +14,6 @@
 "ammo": {
 "titanium": {
 "speed": 5,
-"xRand": 40, 
 "damage": 65,
 "bulletWidth": 15,
 "bulletHeight": 19,
@@ -26,7 +25,6 @@
 "lead": {
 "speed": 5,
 "damage": 56,
-"xRand": 12, 
 "bulletWidth": 10,
 "bulletHeight": 15,
 "shootEffect": "shootBig2",
