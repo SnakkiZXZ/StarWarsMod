@@ -17,6 +17,6 @@ Draw.color(color1, color2, e.fin());
     Fill.circle(e.x+x*foutpow, e.y+y*foutpow, 2*e.fin())
     
  }})
-    }
+    };
 
 }
