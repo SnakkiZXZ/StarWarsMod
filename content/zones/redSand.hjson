@@ -1,6 +1,14 @@
 name: Красная пустыня
 description: 'Красная замороженная пустыня. Некогда здесь проходила жестокая битва между альянсами, теперь же это мёртвая зона. Вы получили сигнал бедствия и прибыли на точку, но как оказалось сигнал был ловушкой. Ваша задача отстоять оборону и восстановить разрушенный форпост или эвакуироваться как можно скорее.'
-loadout: basicFoundation
+loadout: coreImrer
+defaultStartingItems: [
+  copper/300, 
+  lead/300, 
+  metaglass/100, 
+  glass/100
+  graphite/25, 
+  silicon/25, 
+  ]
 startingItems: [
   copper/300, 
   lead/300, 
@@ -9,6 +17,22 @@ startingItems: [
   graphite/25, 
   silicon/25, 
   ]
+baseLaunchCost: [
+  copper/300, 
+  lead/300, 
+  metaglass/100, 
+  glass/100
+  graphite/25, 
+  silicon/25, 
+]
+LaunchCost: [
+  copper/300, 
+  lead/300, 
+  metaglass/100, 
+  glass/100
+  graphite/25, 
+  silicon/25, 
+]
 requirements: [
   {
     type: ZoneWave
@@ -24,7 +48,6 @@ requirements: [
     block: brona-wall
   },
 ]
-conditionWave: 21
 launchPeriod: 11
 resources: [
   copper

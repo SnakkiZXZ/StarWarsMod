@@ -72,5 +72,5 @@ healthTurret.targetGround = false
 healthTurret.chargeEffect = Eff.chargeHeal(color[0], color[3], 5)
 healthTurret.shootEffect = Fx.shootHeal;
 healthTurret.smokeEffect = Fx.none;
-healthTurret.chargeBeginEffect = chargeHeal
+healthTurret.chargeBeginEffect = Eff.chargeHeal(color[0], color[3], 5)
 healthTurret.rotatespeed = 5
