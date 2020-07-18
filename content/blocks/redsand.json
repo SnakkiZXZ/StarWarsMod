@@ -3,4 +3,5 @@
 	"type": "Floor",
 	"itemDrop": "sand"
 	"variants": 3
+		"attributes": { "array": [0, 0, 0.12, 0]}
 }

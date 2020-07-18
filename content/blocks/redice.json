@@ -2,5 +2,5 @@
 	"name": "Красный лёд",
 	"type": "Floor",
 	"variants": 3
-	"attribute": { "array": [0.1, 0.1, 100, 50]}
+	"attributes": { "array": [0, 0, 0.2, 0]}
 }
