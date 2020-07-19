@@ -8,7 +8,7 @@ const plasmaHeal = extend(BasicBulletType, {
     hitTile(b, tile){
         
         for(x = -range+tile.drawx(); x<range+tile.drawx(); x += 8){
-    for(y = -range+tile.drawy(); y<range+tile.drawy(); y += 8){
+        for(y = -range+tile.drawy(); y<range+tile.drawy(); y += 8){
         
         other = Vars.world.tileWorld(x, y)
         if(other != null){
