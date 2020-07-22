@@ -1,0 +1,23 @@
+{
+"name": "Рассвет",
+"description": "Мощная винтовка, запускает ярко-светящиеся снаряды с сильным поджигаюшим эффектом при детонации.",
+"targetAir": true,
+"targetGround": true,
+"health": 2100,
+"size": 3,
+"inaccuracy": 1,
+"reload": 40,
+"shots": 1,
+"range": 180,
+"shootShake": 2,
+"requirements": [
+{ "item": "surge-alloy", "amount": 100},
+{ "item": "silicon", "amount": 210},
+{ "item": "brona", "amount": 75},
+{ "item": "magnit", "amount": 20},
+{ "item": "catyhka", "amount": 85}
+],
+"category": "turret",
+"shootSound": "bamg"
+	"research": "megaturret"
+}

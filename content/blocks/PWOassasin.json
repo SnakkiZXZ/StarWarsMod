@@ -10,7 +10,7 @@
 "reload": 79,
 "shots": 1,
 "range": 300,
-"shootShake": 0.9,
+"shootShake": 4,
 "ammo": {
     "scrap": {
         "speed": 30,

@@ -1,0 +1,27 @@
+{
+	"name": "Лазерная свето-турель",
+	"description": "Мощная лазерная турель. использует [red]кайбер [white]кристаллы для создания нестабильного светового потока, пропадающего сразу после выстрела.",
+	"health": 1300,
+	"size": 2,
+	"reload": 120,
+	"range": 170,
+	"targetAir": false,
+	"chargeTime": 100,
+	"chargeMaxDelay": 30,
+	"chargeEffects": 7,
+	"powerUse": 5,
+	"shootShake": 6,
+	"shootEffect": "hitMeltdown",
+	"chargeBeginEffect": "none",
+	"inaccuracy": 1,
+	"rotatespeed": 3,
+	"requirements": [
+		{ "item": "titanium", "amount": 85 },
+{ "item": "dark-cristal", "amount": 5 },
+{ "item": "lead", "amount": 25 },
+{ "item": "silicon", "amount": 55 },
+	],
+	"category": "turret"
+		"research": "lancer"
+	"shootSound": "laser"
+}

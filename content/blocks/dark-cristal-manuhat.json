@@ -19,7 +19,7 @@
 	"requirements": [
 		{ "item": "silicon", "amount": 60 },
 		{ "item": "lead", "amount": 25 },
-		{"item": "surge-alloy", "amount": 5}
+		{"item": "surge-alloy", "amount": 45}
 	],
 	"category": "crafting",
 	"research": "differential-generator",

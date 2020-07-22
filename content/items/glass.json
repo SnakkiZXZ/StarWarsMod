@@ -4,7 +4,7 @@
 	"description": "Высококачественное, сверххрупкое и одновременно твёрдое кварцевое стекло. При неправильной транспортировке может треснуть и взорватся!",
 	"hardness": 10,
 	"cost": 2.0,
-	"color": "#eeeeee",
+	"color": "#ffffff",
 	"radioactivity": 0.0
 	"explosiveness": 0.05
 	"flammability": 0.0

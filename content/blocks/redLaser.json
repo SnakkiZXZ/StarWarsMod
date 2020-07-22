@@ -1,0 +1,22 @@
+{
+	"name": "Свето-фокусировочный проектор",
+	"description": "Мощная турель. использует [red]кайбер [white]кристаллы и зеркала для фокусировки света в одну лазерную конусообразную линию.",
+	"health": 1800,
+	"size": 2,
+	"reload": 70,
+	"range": 100,
+	"powerUse": 7,
+	"shootShake": 4,
+	"shootEffect": "hitMeltdown",
+	"inaccuracy": 1,
+	"rotatespeed": 3,
+	"requirements": [
+		{ "item": "star-steel", "amount": 50 },
+{ "item": "dark-cristal", "amount": 25 },
+{ "item": "graphite", "amount": 45 },
+{ "item": "glass", "amount": 10 },
+	],
+	"category": "turret"
+		"research": "redLancer"
+	"shootSound": "laser"
+}

@@ -8,6 +8,7 @@
 "size": 4,
 "inaccuracy": 1,
 "reload": 10,
+"shootShake": 3,
 "shots": 2,
 "range": 200,
 "ammo": {
