@@ -1,0 +1,16 @@
+{
+"type": "PowerNode",
+"name": "Бронированный силовой узел",
+"description": "Улучшенный силовой узел, имеет большую прочность для работы в бою.",
+"health": 430,
+"size": 1,
+"maxNodes": 10,
+"laserRange": 6,
+"category": "power",
+"requirements": [
+{ "item": "titanium", "amount": 10},
+{ "item": "brona", "amount": 15},
+{ "item": "silicon", "amount": 5}
+],
+"research": "power-node"
+}

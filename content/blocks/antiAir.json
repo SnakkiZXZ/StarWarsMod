@@ -34,7 +34,7 @@
 "smokeEffect": "shootBigSmoke2",
 	"hitEffect": "hitBulletBig",
 "ammoMultiplier": 4
-"splashDamageRadius": 10
+"splashDamageRadius": 16
 "splashDamage": 5
 },
 "scrap": {

@@ -23,7 +23,7 @@
 		"length": 7,
 		"width": 15,
 	    "ignoreRotation": false,
-	    "targetDistance": 220
+	    "targetDistance": 220,
 		"reload": 15,
 		"shots": 1,
 		"inaccuracy": 2,
@@ -35,7 +35,7 @@
 		"bullet": {
 		    "type": "BasicBulletType",
             "damage": 300,
-            "lifetime": 50,
+            "lifetime": 45,
             "speed": 4,
             "frontColor": "#00fe10",
             "backColor": "#00ff15",

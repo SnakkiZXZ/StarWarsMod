@@ -26,7 +26,7 @@ starBreacker.create(prov(() => new JavaAdapter(HoverUnit, {
             timerY++;
         };
         
-        unit = Units.closestEnemy(this.getTeam(), this.x, this.y, 300, boolf(Unit => !Unit.isDead()))
+        unit = Units.closestEnemy(this.getTeam(), this.x, this.y, this.range*2, boolf(Unit => !Unit.isDead()))
 
         if(unit != null && timerZ > 15){
             
@@ -43,7 +43,7 @@ starBreacker.create(prov(() => new JavaAdapter(HoverUnit, {
         
         this.super$draw();
         
-        unit = Units.closestEnemy(this.getTeam(), this.x, this.y, 300, boolf(Unit => !Unit.isDead()))
+        unit = Units.closestEnemy(this.getTeam(), this.x, this.y, this.range*2, boolf(Unit => !Unit.isDead()))
         
         Draw.rect(Core.atlas.find("starwars-superbracker-weapon-equip"), this.x, this.y, (unit != null) ? (this.angleTo(unit)-90) : (this.rotation-90))
         

@@ -1,0 +1,28 @@
+{
+	"name": "Бронированный графитный пресс",
+	"type": "GenericCrafter",
+	"health": 930,
+	"description": "Улучшенная версия обычного графитного пресса, имеет броню для работы в условиях черезвычайныз ситуаций или на поле боя.",
+	"hasPower": false,
+	"size": 2,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "pulverizeMedium",
+	"itemCapacity": 20,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{"item": "brona", "amount": 54},
+		{"item": "graphite", "amount": 75},
+		{"item": "titanium", "amount": 50}
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": {"item": "graphite", "amount": 1}
+}
