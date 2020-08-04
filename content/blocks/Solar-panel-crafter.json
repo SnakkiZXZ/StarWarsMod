@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Сборщик солнечных панелей"
-	"description": "Производит солнечные панели путём сваривания кремния со стеклом.",
+	"description": "Производит солнечные панели путём сваривания кремния с кварцевым стеклом.",
 	"health": 150,
 	"itemCapacity": 10,
 	"outputItem": {"item": "solar-panel", "amount": 1},

@@ -1,7 +1,7 @@
 {
 "type": "ItemTurret",
-"name": "Сверхмалая ПВО",
-"description": "Мощная электромагнитная винтовка, предназначеная для уничтожения крупных кораблей на большой дистанции.",
+"name": "превмо-турель",
+"description": "Стартовая турель, атакующая исключительно летающих врагов.",
 "targetAir": true,
 "targetGround": false,
 "health": 530,
@@ -9,7 +9,7 @@
 "inaccuracy": 5,
 "reload": 40,
 "shots": 3,
-"range": 180,
+"range": 120,
 "burstSpacing": 50,
 "ammo": {
     "scrap": {

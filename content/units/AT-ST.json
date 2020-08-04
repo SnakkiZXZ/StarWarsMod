@@ -3,14 +3,14 @@
 	"name": "лёгкий шагоход АТ-ST",
 	"description": "Лёгкий шагоход АТ-ST предназначен для манёвренных и быстрых атак в близости населённой местности или непосредственно в ней. Так-же служит для охраны, патрулирования и разведки местности.",
 	"speed": 0.08,
-"baseRotateSpeed": 0.1
+	"size"
+"baseRotateSpeed": 0.1,
 	"flying": false,
 	"health": 400,
 	"engineOffset": 1.8,
 	"weaponOffsetY": 0.7,
-"shootCone": 200
 	"range": 120,
-"targetAir": true
+"targetAir": true,
 	"weapon": {
 		"name": "зарядные бластеры",
 		"length": 1.3,
