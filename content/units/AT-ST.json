@@ -3,8 +3,11 @@
 	"name": "лёгкий шагоход АТ-ST",
 	"description": "Лёгкий шагоход АТ-ST предназначен для манёвренных и быстрых атак в близости населённой местности или непосредственно в ней. Так-же служит для охраны, патрулирования и разведки местности.",
 	"speed": 0.08,
-	"size"
-"baseRotateSpeed": 0.1,
+	"mass": 30,
+	"drag": 0.15,
+	"hitsizeTile": 15,
+    "hitsize": 15,
+    "rotatespeed": 0.1,
 	"flying": false,
 	"health": 400,
 	"engineOffset": 1.8,
@@ -17,12 +20,12 @@
 		"reload": 30,
 		"alternate": false,
 		"bullet": {
-		     "type": "FlakBulletType"
+		     "type": "FlakBulletType",
             "damage": 60,
             "lifetime": 30,
             "speed": 5,
-            "frontColor": "#ff0000",
-            "backColor": "#ff0000",
+            "frontColor": "aaff00",
+            "backColor": "00ff00",
             "bulletWidth": 8,
             "bulletHeight": 20,
             "hitEffect": "hitLaser"

@@ -4,27 +4,31 @@
 	"description": "
 AT-AT представляет собой бронированную четырёхногую боевую машину, вооружённую лазерными орудиями. Используется для уничтожения республиканских сил и очагов востаний.",
 	"speed": 0.03,
-"baseRotateSpeed": 0.02
+    "rotatespeed": 0.01,
+    "hitsizeTile": 30,
+    "hitsize": 30,
+    "mass": 60,
+    "drag": 0.15,
 	"flying": false,
-	"health": 400,
+	"health": 1200,
 	"engineOffset": 1.8,
-	"weaponOffsetY": 0.7,
-"shootCone": 200
+	"weaponOffsetY": 10,
+"shootCone": 20,
 	"range": 150,
-"targetAir": true
+"targetAir": true,
 	"weapon": {
 		"name": "Тяжёлые бластеры",
-		"length": 1.3,
+		"length": 15,
 		"width": 3,
 		"reload": 50,
 		"alternate": false,
 		"bullet": {
-		     "type": "FlakBulletType"
+		    "type": "FlakBulletType",
             "damage": 120,
             "lifetime": 40,
             "speed": 5,
-            "frontColor": "#ff0000",
-            "backColor": "#ff0000",
+            "frontColor": "aaff00",
+            "backColor": "00ff00",
             "bulletWidth": 10,
             "bulletHeight": 30,
             "hitEffect": "hitLaser"
