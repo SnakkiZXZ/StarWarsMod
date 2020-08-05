@@ -73,5 +73,41 @@ module.exports = {
     },
     
     //new effect
+    bulletTraitTri(color, lifetime, size, rotation){
+        
+        return newEffect(lifetime, e => {
+            
+            Draw.color(color);
+            Draw.alpha(e.fout());
+            
+            e.scaled(16, cons(s => {
+		const angle = new Angles.ParticleConsumer({accept: function(x, y, en, out){
+			Fill.circle(s.x + x, s.y + y, out * 2 * 3 + 0.5);
+			Fill.circle(s.x + (x / 2), s.y + (y / 2), out * 2);
+		}});
+	
+		Angles.randLenVectors(e.id, s.finpow(), 3, 14, angle);
+	}));
+            
+            
+            Lines.lineAngleCenter(e.x, e.y, rotation, size)
+            
+        });
+        
+    },
+    
+    //new effect
+    bulletHit(size, lifetime, range){
+        
+        return newEffect(lifetime, e => {
+            
+            
+            
+            
+            
+            
+        });
+        
+    },
 
 }

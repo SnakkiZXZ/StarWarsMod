@@ -1,5 +1,4 @@
 {
-"type": "ArtilleryTurret",
 "name": "Рельсотрон",
 "description": "Мощная дальняя турель. Два мощных электромагнита запускают снаряд по рельсам, за счёт чего он развивает невероятную скорость и урон",
 "targetAir": false,
@@ -10,38 +9,6 @@
 "reload": 170,
 "shots": 1,
 "range": 250,
-"burstSpacing": 5,
-"ammo": {
-"titanium": {
-"speed": 50,
-"damage": 85,
-"bulletWidth": 8,
-"bulletHeight": 20,
-"shootEffect": "shootSmallFlame",
-"smokeEffect": "plasticExplosionFlak",
-"ammoMultiplier": 2
-		"fragBullets": 40,
-        "fragBullet": {
-             "type": "BasicBulletType"
-            "damage": 20,
-            "lifetime": 10, 
-            "speed": 3,
-            "bulletWidth": 3,
-            "bulletHeight": 4,
-        }
-},
-    "thorium": {
-        "speed": 50
-        "damage": 90,
-"bulletWidth": 8,
-"bulletHeight": 20,
-"shootEffect": "shootSmallFlame",
-"smokeEffect": "plasticExplosionFlak",
-"ammoMultiplier": 2
-		"splashDamageRadius": 50,
-		"splashDamage": 40,
-    }
-},
 "requirements": [
 { "item": "titanium", "amount": 30},
 { "item": "graphite", "amount": 50},
