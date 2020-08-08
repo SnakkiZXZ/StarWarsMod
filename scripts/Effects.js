@@ -82,11 +82,14 @@ module.exports = {
             
             e.scaled(16, cons(s => {
 		const angle = new Angles.ParticleConsumer({accept: function(x, y, en, out){
+		    
 			Fill.circle(s.x + x, s.y + y, out * 2 * 3 + 0.5);
 			Fill.circle(s.x + (x / 2), s.y + (y / 2), out * 2);
+			
 		}});
 	
 		Angles.randLenVectors(e.id, s.finpow(), 3, 14, angle);
+		
 	}));
             
             
@@ -97,17 +100,79 @@ module.exports = {
     },
     
     //new effect
-    bulletHit(size, lifetime, range){
+    bulletHit(size, color, lifetime, range, int1, int2){
         
         return newEffect(lifetime, e => {
             
+            Draw.color(color);
             
+            Angles.randLenVectors(e.id, int1, range * e.finpow(), e.rotation, 180, Floatc2((x, y) => {
             
+            Fill.circle(e.x + x, e.y + y, 0.5 + size * e.fout())
             
+        }));
+        
+        Angles.randLenVectors(e.id, int2, 2 + range * e.finpow(), e.rotation, 180, Floatc2((x, y) => {
             
+            Fill.circle(e.x + x, e.y + y, (size / 2) * e.fout())
+            
+        }));
             
         });
         
     },
+    
+    //new effect
+    plasmaHit(size, color1, color2, lifetime1, lifetime2, range){
+        
+        return newEffect(lifetime2, e =>{
+            
+            Draw.color(color1, color2, e.fin());
+            
+            e.scaled(lifetime2, cons(s =>{
+                
+                Angles.randLenVectors(s.id, 1, range * s.finpow(), s.rotation, 180, Floatc2((x, y) => {
+            
+            Fill.circle(s.x + x, s.y + y, 0.5 + size * s.fout())
+            
+        }));
+        
+        Angles.randLenVectors(s.id, 2, 2 + range * s.finpow(), s.rotation, 180, Floatc2((x, y) => {
+            
+            Fill.circle(s.x + x, s.y + y, (size / 2) * s.fout())
+            
+        }));
+                
+            }));
+            
+        Lines.stroke(4 * e.fout());
+            
+        Lines.circle(e.x, e.y, range * 2 * e.finpow())
+            
+        });
+        
+    },
+    
+    //new effect
+    trail(color, size, lifetime){
+        
+        return newEffect(lifetime, e => {
+            
+            Draw.color(color);
+            
+            const an = new Angles.ParticleConsumer({accept: function(x, y, en, out){
+		    
+			Fill.circle(e.x + x, e.y + y, out * size + 0.5);
+			Fill.circle(e.x + (x / 2), e.y + (y / 2), out * (size / 2));
+			
+		}});
+	
+		Angles.randLenVectors(e.id, e.finpow(), 1, 4, an);
+            
+        });
+        
+    },
+    
+    //new effect
 
 }
