@@ -6,7 +6,11 @@ const plasma = extend(BasicBulletType, {
         
         this.super$update(b);
         
+        if(Mathf.chance(0.2)){
+            
         Effects.effect(Eff.trail(Pal.heal, 4, 8), b.x, b.y);
+        
+        }
         
     },
     
@@ -14,7 +18,6 @@ const plasma = extend(BasicBulletType, {
 plasma.lifetime = 54;
 plasma.speed = 5;
 plasma.damage = 65;
-plasma.pierce = true;
 plasma.bulletHeight = 19;
 plasma.bulletWidth = 15;
 plasma.shootShake = 0.5;

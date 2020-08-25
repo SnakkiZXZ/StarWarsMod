@@ -20,7 +20,9 @@
 "shootEffect": "shootBig2",
 "smokeEffect": "shootBigSmoke2",
 	"hitEffect": "hitBulletBig",
-"ammoMultiplier": 4
+"ammoMultiplier": 4,
+"weaveMag": 3,
+"weaveScale": 6
 },
 "lead": {
 "speed": 5,
@@ -31,6 +33,8 @@
 "smokeEffect": "shootBigSmoke2",
 	"hitEffect": "hitBulletBig",
 "ammoMultiplier": 2
+"weaveMag": 3,
+"weaveScale": 6
 },},
 "requirements": [
 { "item": "titanium", "amount": 120},
