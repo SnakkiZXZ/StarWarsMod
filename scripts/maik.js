@@ -15,11 +15,12 @@ const m = extendContent(Block, "maik", {
         }
         }
         
-        if(tile.entity.returnTime() > 10000){
+        if(tile.entity.returnTime() > 10000 && tile.entity.returnTime() < 10002){
             
-            unit = Vars.content.getByName(ContentType.unit,  "starwars-superbracker-palach").create(tile.getTeam());
+            unit = Vars.content.getByName(ContentType.unit,  "starwars-starbreak").create(tile.getTeam());
             unit.add();
-            tile.entity.sleep();
+            tile.entity.setterTime(12000)
+            
             
         }
         
@@ -40,7 +41,9 @@ m.entityType = prov(() => extend(TileEntity, {
     
     updateTimed(){
         
+        if(this._time <= 10000){
         this._time++
+        }
         
     },
     returnTime(){
@@ -48,5 +51,10 @@ m.entityType = prov(() => extend(TileEntity, {
         return this._time
         
     },
+    setterTime(i){
+        
+        this._time = i
+        
+    }
     
 }))
