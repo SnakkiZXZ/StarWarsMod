@@ -174,5 +174,19 @@ module.exports = {
     },
     
     //new effect
+    bigWave(range, color, time){
+        
+        return newEffect(time, e => {
+            
+            Draw.color(color);
+            Lines.stroke(e.fout() * 3);
+            Lines.circle(e.x, e.y, e.fin() * range)
+            Draw.color()
+            
+        })
+        
+    }
+    
+    
 
 }

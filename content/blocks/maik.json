@@ -1,23 +1,19 @@
 {
 	"name": "Маяк",
 	"description": "Вызывает звёздные разрушительи с орбитальной фабрики.",
-	"type": "UnitFactory",
-	"unitType": "starbreak",
 	"size": 4,
-	"maxSpawn": 1,
-	"produceTime": 10000,
 	"consumes": {
 		"power": 120,
 	},
 	"category": "units",
 	"research": "creuser-pad",
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 2800 },
-		{ "item": "glass", "amount": 1500 },
-		{ "item": "silicon", "amount": 4000 },
-		{ "item": "surge-alloy", "amount": 3200 },
-		{ "item": "star-steel", "amount": 4000 }, 
-		{ "item": "catyhka", "amount": 1890 }, 
-		{ "item": "dark-cristal", "amount": 2500 }
+		{ "item": "phase-fabric", "amount": 1800 },
+		{ "item": "glass", "amount": 900 },
+		{ "item": "silicon", "amount": 3000 },
+		{ "item": "surge-alloy", "amount": 2100 },
+		{ "item": "star-steel", "amount": 2000 }, 
+		{ "item": "catyhka", "amount": 1190 }, 
+		{ "item": "dark-cristal", "amount": 600 }
 	]
 }

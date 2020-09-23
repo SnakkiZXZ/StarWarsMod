@@ -8,6 +8,8 @@
 	"targetAir": false,
 	"chargeTime": 100,
 	"chargeMaxDelay": 30,
+	"shots": 3,
+	"shootCone": 20,
 	"chargeEffects": 7,
 	"powerUse": 5,
 	"shootShake": 6,

@@ -8,6 +8,7 @@
 	"placeableOn": false
 	"status": "corroded"
 	"statusDuration": 120
-	"edge": "stone"
+	"cacheLayer": "water"
+    "blendGroup": "water"
 	"isLiquid": true,
 }

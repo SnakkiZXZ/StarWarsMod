@@ -1,6 +1,15 @@
 const Eff = require("Effects");
 
-
+const fragTitBullet = extend(ArtilleryBulletType, {
+    
+})
+fragTitBullet.speed = 1;
+fragTitBullet.damage = 15;
+fragTitBullet.bulletWidth = 9;
+fragTitBullet.bulletHeight = 12;
+fragTitBullet.lifetime = 80;
+fragTitBullet.splashDamageRadius = 20;
+fragTitBullet.splashDamage = 15;
 
 const titaniumBullet = extend(BasicBulletType, {
     
@@ -28,7 +37,7 @@ const titaniumBullet = extend(BasicBulletType, {
         
         for(i = 0; i < 10; i++){
             
-        Bullet.create(Bullets.standardCopper, b, b.x, b.y, Mathf.random(0, 360), Mathf.random(0.1, 0.5));
+        Bullet.create(fragTitBullet, b, b.x, b.y, Mathf.random(0, 360), Mathf.random(0.1, 0.5));
         }
         
     },
@@ -41,7 +50,7 @@ const titaniumBullet = extend(BasicBulletType, {
         
         for(i = 0; i < 20; i++){
             
-        Bullet.create(Bullets.standardCopper, b, b.x, b.y, Mathf.random(0, 360), Mathf.random(0.1, 0.5));
+        Bullet.create(fragTitBullet, b, b.x, b.y, Mathf.random(0, 360), Mathf.random(0.1, 0.5));
         }
         
     },
