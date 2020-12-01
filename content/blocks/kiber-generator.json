@@ -1,0 +1,29 @@
+{
+	"type": "NuclearReactor",
+	"name": "Энергетический генератор",
+	"description": "Мощный ядерный генератор, вырабатывающий энергию из микровзрывов разрушения кайбер кристаллов. Детонирует при перегреве.",
+	"itemCapacity": 15,
+	"health": 350,
+	"size": 3,
+	"heating": 0.01,
+	"hasLiquids": true,
+	"explosionDamage": 90000,
+	"explosionRadius": 800,
+    "powerProduction": 22,
+    "itemDuration" : 70,
+	"consumes": {
+		"item": "dark-cristal",
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.3
+		}
+    },
+	"requirements": [
+		{"item": "star-steel", "amount": 115},
+		{"item": "magnit", "amount": 80},
+		{"item": "catyhka", "amount": 50},
+		{"item": "glass", "amount": 75}
+	],
+	"category": "power",
+	"research": "thorium-reactor"
+}

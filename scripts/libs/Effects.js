@@ -125,7 +125,7 @@ module.exports = {
     //new effect
     plasmaHit(size, color1, color2, lifetime1, lifetime2, range){
         
-        return newEffect(lifetime2, e =>{
+        return newEffect(lifetime1, e =>{
             
             Draw.color(color1, color2, e.fin());
             
@@ -185,8 +185,38 @@ module.exports = {
             
         })
         
-    }
+    },
     
+    //new effect
+    magnitDischarge(color1, color2, lifetime, range, quantity, size){
+        return newEffect(lifetime, e => {
+            
+            Draw.color(color1, color2, e.fin());
+            
+            Angles.randLenVectors(e.id, quantity, range * e.fout(), 0, 180, Floatc2((x, y) => {
+            
+            Fill.circle(e.x + x, e.y + y, size * e.fin());
+            
+        }));
+            
+        });
+    },
     
-
+    //new effect
+    shockWawe(color1, color2, range, lifetime){
+    return newEffect(lifetime, e => {
+        
+        Draw.color(color1, color2, color1, e.fin());
+        Draw.alpha(0.7);
+        Draw.blend(Blending.additive);
+        
+        Lines.stroke(e.fslope() * 2);
+        Lines.circle(e.x, e.y, 2 + range * e.fslope());
+        Draw.blend();
+        
+    });
+    },
+    
+    //new effect
+    
 }

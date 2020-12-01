@@ -1,4 +1,4 @@
-const Eff = require("Effects")
+const Eff = require("libs/Effects");
 
 const colors = [Pal.meltdownHit.cpy().mul(1, 0.6, 0.6, 0.4), Pal.meltdownHit, Color.white];
 const tscales = [1, 0.7, 0.5, 0.2];

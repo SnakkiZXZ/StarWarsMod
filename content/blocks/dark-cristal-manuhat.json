@@ -1,12 +1,10 @@
 {
 	"name": "завод [red]кайбер кристаллов",
-	"type": "GenericCrafter",
 	"description": "Синтезирует [red]кайбер кристаллы[#eeeeee], широко использующиеся в военном деле для создания мощных лазеров и генераторов.",
 	"hasPower": true,
 	"size": 2,
 	"hasLiquids": false,
 	"craftTime": 300,
-	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 4,
 		"items": {

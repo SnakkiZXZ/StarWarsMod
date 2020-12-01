@@ -1,13 +1,11 @@
 {
 	"name": "Сборщик гипердрайва",
-	"type": "GenericCrafter",
 	"health": 1200,
 	"description": "Собирает гипердрайв из большого колличества ресурсов, это трудоёмкий процесс, требующий постоянного охлаждения.",
 	"hasPower": true,
 	"size": 4,
 	"hasLiquids": true,
 	"craftTime": 130,
-	"updateEffect": "nuclearsmoke",
 	"itemCapacity": 20,
 	"consumes": {
 		"items": {

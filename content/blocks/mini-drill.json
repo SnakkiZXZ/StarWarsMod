@@ -1,10 +1,10 @@
 {
 	"name": "Маленькая буровая установка",
-	"description": "Особый бур. Империя использует этих механических малышей когда ресурсов максимально мало. По мощности не уступает медному, однако бурит всё",
+	"description": "Особый бур маленьких рамеров. Используется для добычи ресурсов с минимальных территорий",
 	"type": "Drill",
 	"size": 1,
 	"health": 150,
-	"tier": 6,
+	"tier": 4,
 	"drillTime": 230,
 	"rotateSpeed": 12,
 	"updateEffect": "pulverizeRed"
@@ -13,16 +13,16 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "cryofluid",
-			"amount": 0.3,
+			"amount": 0.02,
 			"optional": true,
 			"booster": true
 		}
 	},
 	"requirements": [
-		{ "item": "dark-cristal", "amount": 1 },
-		{ "item": "star-steel", "amount": 50 },
+		{ "item": "graphite", "amount": 15 },
+		{ "item": "copper", "amount": 45},
 		{ "item": "titanium", "amount": 20 }
 	],
 	"category": "production"
-		"research": "laser-drill"
+		"research": "pneumatic-drill"
 }

@@ -1,0 +1,32 @@
+{
+	"name": "Плазменный бур",
+	"description": "Гиганская буровая установка. Улучшенная версия кайбер бура, использует большее колличество кристаллов для ещё более быстрой добычи ресурсов.",
+	"type": "Drill",
+	"size": 5,
+	"health": 3400,
+	"tier": 10,
+	"drillTime": 120,
+	"rotateSpeed": 4,
+	"drawRim": true,
+	"updateEffect": "pulverizeRed",
+	"updateEffectChance": 0.03,
+	"consumes": {
+		"power": 6.0
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.4,
+			"optional": false,
+			"booster": true,
+		}
+	},
+	"requirements": [
+		{ "item": "dark-cristal", "amount": 80 },
+		{ "item": "star-steel", "amount": 350 },
+		{ "item": "surge-alloy", "amount": 240 },
+       	{ "item": "silicon", "amount": 350 },
+      	{ "item": "plastanium", "amount": 150 },
+       	
+	],
+	"category": "production"
+		"research": "big-star-drill"
+}

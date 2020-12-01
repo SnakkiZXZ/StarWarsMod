@@ -1,0 +1,17 @@
+{
+	"type": "DecayGenerator",
+	"name": "Имперский радиоизотопный генератор",
+	"description": "Улучшеный герератор, вырабатывающий энергию от распада радиоктивных материалов. Вырабатывает больше энергии чем обычный.",
+	"size": 2,
+	"heating": 0.05,
+	"hasLiquids": false,
+    "powerProduction": 4,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+		{"item": "magnit", "amount": 70},
+		{"item": "silicon", "amount": 50},
+		{"item": "glass", "amount": 40}
+	],
+	"category": "power",
+	"research": "turbine-generator"
+}

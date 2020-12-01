@@ -1,4 +1,4 @@
-const Eff = require("Effects")
+const Eff = require("libs/Effects");
 const range = 50
 const heal = 5
 const color = [Color.valueOf("00FF6166"), Color.valueOf("4AFF8Faa"), Color.valueOf("6CFF8B"), Color.valueOf("A1FFCF")]

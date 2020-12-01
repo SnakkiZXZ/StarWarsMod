@@ -1,5 +1,5 @@
-const Eff = require("Effects");
-const Funct = require("Functions");
+const Eff = require("libs/Effects");
+const Funct = require("libs/Functions");
 
 const color = Color.valueOf("FFD8B2");
 const size = [8, 4, 16];

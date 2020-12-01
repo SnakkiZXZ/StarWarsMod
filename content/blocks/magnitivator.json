@@ -1,12 +1,10 @@
 {
 	"name": "Магнитизатор",
-	"type": "GenericCrafter",
 	"description": "Намагничивает титан, получая постоянный магнит. Требуется большое количество энергии для запуска катушек.",
 	"hasPower": true,
 	"size": 1,
 	"hasLiquids": false,
 	"craftTime": 120,
-	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 2,
 		"items": {

@@ -1,4 +1,4 @@
-const Eff = require("Effects")
+const Eff = require("libs/Effects");
 
 const redArc = extendContent(ChargeTurret, "redArc", {
 });

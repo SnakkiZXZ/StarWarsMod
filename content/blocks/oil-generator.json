@@ -1,17 +1,20 @@
 {
-	"type": "DecayGenerator",
-	"name": "Имперский радиоизотопный генератор",
-	"description": "Улучшеный герератор, вырабатывающий энергию от распада радиоктивных материалов. Вырабатывает больше энергии чем обычный.",
+	"name": "Нефтяной генератор",
+	"description": "Особый тип теплового генератора, использует тепло горения нефти для получения небольшого колличества энергии.",
 	"size": 2,
-	"heating": 0.05,
-	"hasLiquids": false,
-    "powerProduction": 4,
-	"updateEffect": "smeltsmoke",
+	"hasLiquids": true,
+    "powerProduction": 1.5,
+	"consumes": {
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.13
+		}
+    },
 	"requirements": [
-		{"item": "magnit", "amount": 70},
-		{"item": "silicon", "amount": 50},
-		{"item": "glass", "amount": 40}
+		{"item": "metaglass", "amount": 45},
+		{"item": "copper", "amount": 70},
+		{"item": "silicon", "amount": 35},
 	],
 	"category": "power",
-	"research": "turbine-generator"
+	"research": "combustion-generator"
 }

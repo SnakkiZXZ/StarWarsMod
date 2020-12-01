@@ -1,0 +1,31 @@
+{
+	"name": "Кайбер бур",
+	"description": "Большая буровая установка. Использующий кайбер кристаллы для быстрого бурения особо твёрдых пород",
+	"type": "Drill",
+	"size": 3,
+	"health": 2100,
+	"tier": 10,
+	"drillTime": 100,
+	"rotateSpeed": 6.5,
+	"drawRim": true,
+	"updateEffect": "pulverizeRed",
+	"updateEffectChance": 0.02,
+	"consumes": {
+		"power": 4.0
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.1,
+			"update": false,
+			"optional": true,
+			"booster": true,
+		}
+	},
+	"requirements": [
+		{ "item": "dark-cristal", "amount": 15 },
+		{ "item": "star-steel", "amount": 150 },
+		{ "item": "titanium", "amount": 120 },
+       	{ "item": "silicon", "amount": 120 },
+	],
+	"category": "production"
+		"research": "star-drill"
+}
