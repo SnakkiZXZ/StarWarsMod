@@ -1,0 +1,11 @@
+{
+"name": "Snakki soul"
+"description": "Кусочек души, вложенный разработчиком. Является неограниченным источником энергии."
+"health": 6000,
+"size": 1,
+"maxNodes": 1000,
+"outputsPower": true,
+"consumesPower": false,
+"buildVisibility": "sandboxOnly",
+"alwaysUnlocked": true,
+}

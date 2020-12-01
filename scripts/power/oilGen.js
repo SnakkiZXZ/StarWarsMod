@@ -92,3 +92,17 @@ oilgen.entityType = prov(() => extend(PowerGenerator.GeneratorEntity, {
     
 }));
 oilgen.liquidCapacity = 35;
+
+const soul = extendContent(PowerSource, "soul-Snakki", {
+    
+    draw(tile){
+        
+        Draw.color(Pal.accent);
+        
+        scl = Math.cos(Time.time() / 20);
+        Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy(), 15 + scl * 4, 15 + scl * 4, Time.time() * 2)
+        
+    },
+    
+});
+soul.configurable = true;
